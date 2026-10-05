@@ -1,0 +1,154 @@
+{
+  "hero": {
+    "badge": "⚡ Same-Day Repair Service across Delhi/NCR",
+    "title_part1": "Professional RO Service",
+    "title_part2": "Done in 2 Hours.",
+    "desc": "Trusted by 5,000+ high-rise society families in Noida, Gurgaon, and Delhi. Zero hidden costs. 100% genuine spares.",
+    "cta_online": "Schedule Repair Online",
+    "cta_whatsapp": "Book via WhatsApp"
+  },
+  "nav": {
+    "services": "Services",
+    "pricing": "AMC Plans",
+    "book_now": "Book Now"
+  },
+  "amc": {
+    "title": "Annual Maintenance Contracts (AMC)",
+    "subtitle": "Choose a worry-free plan customized for Delhi/NCR water conditions",
+    "recommended": "Most Popular",
+    "cta_buy": "Choose Plan",
+    "plans": {
+      "basic": {
+        "name": "Basic Care",
+        "desc": "Best for low TDS municipal tap water.",
+        "price": "₹2,499",
+        "features": [
+          "2 Dedicated Service Visits / Year",
+          "Free Periodic Water TDS Checking",
+          "Sediment & Carbon Filter Cover",
+          "❌ RO Membrane Not Covered",
+          "❌ Booster Pump Repair Excluded"
+        ]
+      },
+      "premium": {
+        "name": "Premium Shield",
+        "desc": "Perfect for high TDS borewell water (Noida/Gurgaon).",
+        "price": "₹4,999",
+        "features": [
+          "3 Routine Maintenance Visits / Year",
+          "Free Unlimited Breakdown Call-outs",
+          "Heavy Duty 100 GPD Membrane Included",
+          "Complete Booster Pump & SMPS Insurance",
+          "Alkaline Mineral Cartridge Upgrades"
+        ]
+      }
+    }
+  },
+  "shop": {
+    "title": "Our Custom Assembled RO Purifiers",
+    "subtitle": "Built specifically for Delhi/NCR water conditions. Direct from factory pricing.",
+    "badge_warranty": "1-Year Full Warranty",
+    "bundle_text": "🎁 Bundle with 1st Year Premium AMC & Save ₹1,000!",
+    "cta_order": "Order on WhatsApp",
+    "models": {
+      "eco": {
+        "name": "PureAqua Eco-RO",
+        "desc": "Best for municipal tap water supplies (TDS < 1000). 7-stage purification.",
+        "price": "₹6,999",
+        "original_price": "₹12,000"
+      },
+      "pro": {
+        "name": "PureAqua Pro-Alkaline + Copper",
+        "desc": "Heavy-duty model for high TDS society groundwater (TDS up to 2500) in Noida & Gurgaon. 9-stage active mineralization.",
+        "price": "₹9,499",
+        "original_price": "₹18,000"
+      }
+    }
+  },
+  "services": {
+    "title": "Our Core RO Services",
+    "subtitle": "Professional, same-day water purifier care at transparent rates across Delhi/NCR",
+    "repair": {
+      "title": "Emergency RO Repair",
+      "desc": "Fixing leaks, low pressure, system power issues, and bad water taste inside 2 hours."
+    },
+    "filter": {
+      "title": "Filter Replacement",
+      "desc": "Periodic replacement of sediment and carbon pre-filters to protect your system's membrane."
+    },
+    "install": {
+      "title": "Installation & Uninstallation",
+      "desc": "Seamless unmounting and new installation setups for residential society high-rises."
+    }
+  },
+  "reviews": {
+    "title": "What Your Neighbors Say",
+    "subtitle": "Trusted by 5,000+ families across premium residential societies in Delhi/NCR.",
+    "rating_label": "Average Rating: 4.9/5 stars based on 1,200+ local society reviews",
+    "cards": {
+      "rev1": {
+        "name": "Amit Sharma",
+        "society": "Gaur City 2, Noida Extension",
+        "comment": "Super fast service! The technician reached my tower block within 2 hours of booking. Checked the water TDS right in front of me and changed the filters cleanly. No hidden charges."
+      },
+      "rev2": {
+        "name": "Priyanka Goel",
+        "society": "DLF Phase 5, Golf Course Road",
+        "comment": "I took their Premium AMC plan for my customized Alkaline RO. The groundwater hardness here is terrible, but their heavy-duty setup handles it easily. Highly recommended!"
+      },
+      "rev3": {
+        "name": "Vikram Malhotra",
+        "society": "Ats Pristine, Sector 150",
+        "comment": "Brilliant concept! Clubbed my filter replacement request with 3 neighbors in my building and got a flat 15% discount instantly. Spares are 100% genuine."
+      }
+    }
+  },
+  "footer": {
+    "desc": "Trusted hyper-local residential RO sales, service, and Annual Maintenance Contracts (AMC) across Delhi/NCR.",
+    "quick_links": "Quick Links",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "corporate": "Corporate Information",
+    "cin": "CIN: U74140DL2026PTC412345",
+    "gstin": "GSTIN: 07AAAAA1111A1Z1",
+    "rights": "All Rights Reserved.",
+    "developed_by": "Developed by"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "updated": "Last Updated: October 2026",
+    "intro": "PureAqua NCR operates this platform to offer residential RO system sales, repair, and maintenance services. We are committed to protecting the privacy of our users in compliance with Indian Information Technology laws.",
+    "sec1_title": "1. Information We Collect",
+    "sec1_desc": "When you book a service or contact us via WhatsApp, we collect personal details including your Name, Phone Number, Email, and exact Society Address (Tower and Flat Number) to deploy our technicians.",
+    "sec2_title": "2. How We Use Data",
+    "sec2_desc": "Your contact information is strictly used to schedule visits, manage your active Annual Maintenance Contracts (AMC), send service reminders, and generate legal invoices containing our GSTIN registration details.",
+    "sec3_title": "3. Data Protection & Sharing",
+    "sec3_desc": "We do not sell, lease, or distribute your personal details to third-party marketing companies. Data is shared exclusively with our authorized technicians deployed to your specific residential sector.",
+    "contact": "For any privacy concerns or data deletion requests under corporate guidelines, contact our Grievance Officer at privacy@pureaquancr.in."
+  },
+  "terms": {
+    "title": "Terms & Conditions",
+    "updated": "Last Updated: October 2026",
+    "intro": "These terms govern the use of the PureAqua NCR platform and the water purifier sales, maintenance, and repair services executed within residential complexes in the Delhi/NCR zone.",
+    "sec1_title": "1. Service Bookings & Technician Deployment",
+    "sec1_desc": "Service bookings are processed dynamically on this platform or via verified WhatsApp requests. We work toward our 2-hour deployment baseline, but execution speeds may adapt due to gate validation protocols or local block accessibility restrictions.",
+    "sec2_title": "2. Hardware Components & Warranty Guidelines",
+    "sec2_desc": "All newly purchased custom-assembled RO purifiers carry an explicit 1-Year Comprehensive Warranty covering the booster pump, SMPS unit, and internal electrical controllers. Periodic filtration consumables (Sediment and Carbon filters) are subject to localized clogging cycles depending on water hardness and are excluded from long-term free replacement warranties.",
+    "sec3_title": "3. RWA & Resident Group Discount Regulations",
+    "sec3_desc": "To claim society block group discount incentives, multiple service requests must be submitted together for the same apartment block location. Benefits will be applied symmetrically to the final invoice generation matching our active GSTIN records.",
+    "contact": "For clarifications regarding corporate installation agreements, invoice auditing, or legal framework policies, reach out to our desk at operations@pureaquancr.in."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about our residential RO sales and society service network.",
+    "q1": "What is the average tap water TDS level in Noida and Gurgaon?",
+    "a1": "Groundwater in high-rise societies across Noida and Gurgaon commonly reads between 1,200 to 2,500+ PPM. Standard municipal tap water usually stays below 800 PPM. We test your water for free and configure a 100 GPD heavy-duty system optimized specifically for your society's hardness profile.",
+    "q2": "What parts are covered under your 1-Year Hardware Warranty?",
+    "a2": "Our comprehensive 1-year warranty explicitly covers crucial operating electronics including the booster pump, SMPS electrical unit, and solenoid control valves. Filters and membranes are consumables subject to clogging from external dust/mud particles and are maintained under our active AMC protection plans.",
+    "q3": "How long does it take for a technician to arrive after booking?",
+    "a3": "We maintain a 2-hour technician deployment baseline for high-density hubs like Noida Extension, Dwarka, and Gurgaon Phase 5. Once you submit a booking request or ping us on WhatsApp, a certified technician is assigned and scheduled directly to your tower block.",
+    "q4": "How can our society unlock the Resident Group Discount?",
+    "a4": "If you club filter replacement or AMC maintenance purchases with 3 or more neighbors in the same apartment building or tower block, we apply a flat 15% discount to the collective order invoice. You can arrange this directly by pinging our team on WhatsApp."
+  }
+}

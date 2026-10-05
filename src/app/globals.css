@@ -1,9 +1,19 @@
 @import "tailwindcss";
 
+/* 1. Define Default Light Mode Variables */
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
+
+/* 2. Define Manual Dark Mode Override for next-themes */
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+/* 3. Tell Tailwind v4 to listen to the manual .dark class toggle */
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme inline {
   --color-background: var(--background);
@@ -12,15 +22,11 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* 4. Apply standard background behavior globally */
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  transition-property: color, background-color;
+  transition-duration: 300ms;
 }

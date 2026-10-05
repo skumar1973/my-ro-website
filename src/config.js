@@ -1,0 +1,1 @@
+export const BUSINESS_PHONE = "919990720215";

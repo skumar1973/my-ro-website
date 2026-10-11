@@ -1,3 +1,4 @@
+"use client"
 import { ExternalLink } from "lucide-react";
 
 export default function Footer({ dict }) {
@@ -13,7 +14,7 @@ export default function Footer({ dict }) {
           {/* Column 1: Brand Info & Social Media Profiles */}
           <div className="space-y-4">
             <span className="text-lg font-black tracking-tight text-slate-900 dark:text-white uppercase">
-              Pure<span className="text-blue-600 dark:text-blue-400">Aqua</span> NCR
+              Arya Water <span className="text-blue-600 dark:text-blue-400">Works</span>
             </span>
             <p className="text-xs sm:text-sm leading-relaxed text-slate-500 dark:text-slate-400">
               {dict.footer.desc}
@@ -89,6 +90,9 @@ export default function Footer({ dict }) {
             <div className="mt-4 space-y-2 text-xs font-semibold tracking-wide text-slate-500 dark:text-slate-400">
               <p className="rounded bg-slate-200/50 px-2 py-1.5 dark:bg-slate-900/50">{dict.footer.cin}</p>
               <p className="rounded bg-slate-200/50 px-2 py-1.5 dark:bg-slate-900/50">{dict.footer.gstin}</p>
+              <p className="rounded bg-slate-200/50 px-2 py-1.5 dark:bg-slate-900/50">{dict.footer.officeaddress}</p>
+              <p className="rounded bg-slate-200/50 px-2 py-1.5 dark:bg-slate-900/50">{dict.footer.phone}</p>
+              <p className="rounded bg-slate-200/50 px-2 py-1.5 dark:bg-slate-900/50">{dict.footer.email}</p>
             </div>
           </div>
 
@@ -96,7 +100,7 @@ export default function Footer({ dict }) {
 
         {/* Bottom Bar: License and Developer Credit Anchor */}
         <div className="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800 flex flex-col md:flex-row items-center justify-between gap-4 text-xs font-semibold text-slate-400 dark:text-slate-500">
-          <p>© {currentYear} PureAqua NCR. {dict.footer.rights}</p>
+          <p>© {currentYear} Arya Water Works {dict.footer.rights}</p>
           
           <div className="flex items-center gap-1">
             <span>{dict.footer.developed_by}</span>

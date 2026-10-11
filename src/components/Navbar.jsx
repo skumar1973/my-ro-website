@@ -64,10 +64,10 @@ export default function Navbar({ lang, setLang, dict }) {
               {/* Typographic Brand Identity */}
               <div className="flex flex-col justify-center leading-none">
                 <span className="text-lg font-black tracking-tight text-slate-900 dark:text-white uppercase sm:text-xl">
-                  Pure<span className="text-blue-600 dark:text-blue-400">Aqua</span>
+                  Arya Water <span className="text-blue-600 dark:text-blue-400">Works</span>
                 </span>
                 <span className="text-[9px] font-bold tracking-widest text-slate-400 dark:text-slate-500 uppercase mt-0.5">
-                  NCR Service
+                  Delhi NCR Service
                 </span>
               </div>
             </a>
@@ -77,7 +77,9 @@ export default function Navbar({ lang, setLang, dict }) {
           <div className="hidden md:flex items-center gap-6">
             <div className="hidden md:flex gap-6 text-sm font-medium text-slate-600 dark:text-slate-300">
               <a href="/#services" className="hover:text-blue-600 dark:hover:text-blue-400">{dict.nav.services}</a>
+              <a href="/#shop" className="hover:text-blue-600 dark:hover:text-blue-400">{dict.nav.shop}</a>
               <a href="/#pricing" className="hover:text-blue-600 dark:hover:text-blue-400">{dict.nav.pricing}</a>
+              <a href="/#reviews" className="hover:text-blue-600 dark:hover:text-blue-400">{dict.nav.reviews}</a>
             </div>
 
             {/* SEPARATE Desktop Controls */}
@@ -128,8 +130,14 @@ export default function Navbar({ lang, setLang, dict }) {
             <a href="/#services" onClick={() => setIsOpen(false)} className="block rounded-md px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 dark:text-slate-300 dark:hover:bg-slate-800">
               {dict.nav.services}
             </a>
+            <a href="/#shop" onClick={() => setIsOpen(false)} className="block rounded-md px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 dark:text-slate-300 dark:hover:bg-slate-800">
+              {dict.nav.shop}
+            </a>
             <a href="/#pricing" onClick={() => setIsOpen(false)} className="block rounded-md px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 dark:text-slate-300 dark:hover:bg-slate-800">
               {dict.nav.pricing}
+            </a>
+            <a href="/#reviews" onClick={() => setIsOpen(false)} className="block rounded-md px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 dark:text-slate-300 dark:hover:bg-slate-800">
+              {dict.nav.reviews}
             </a>
           </div>
 

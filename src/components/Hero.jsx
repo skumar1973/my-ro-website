@@ -1,3 +1,4 @@
+import { BUSINESS_PHONE } from "@/config";
 export default function Hero({ dict }) {
   return (
     <div className="relative overflow-hidden bg-white py-12 dark:bg-slate-950 sm:py-20 md:py-28 lg:py-32">
@@ -29,7 +30,9 @@ export default function Hero({ dict }) {
               {dict.hero.cta_online}
             </a>
             <a 
-              href="https://wa.me" 
+              href={`https://wa.me/${BUSINESS_PHONE}?text=Hi%20Arya%20Water%20Works,%20I%20need%20to%20book%20an%20RO%20service%20for%20my%20home.`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-full rounded-lg bg-emerald-600 px-6 py-3.5 text-center text-sm font-semibold text-white shadow-md hover:bg-emerald-700 transition sm:w-auto sm:px-8 sm:text-base"
             >
               💬 {dict.hero.cta_whatsapp}

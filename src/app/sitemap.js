@@ -1,6 +1,9 @@
+export const dynamic = "force-static";
 // 1. Import your dataset of societies (or define the array here matching your dynamic pages)
 const societySlugs = [
   "gaur-city-noida",
+  "royal-nest-techzone-4",
+  "apex-golf-avenue",
   "dlf-phase-5-gurgaon",
   "ats-pristine-noida",
   "subham-apartments-dwarka"
@@ -8,7 +11,7 @@ const societySlugs = [
 
 export default async function sitemap() {
   // Replace this with your actual production URL after buying your domain
-  const baseUrl = "https://pureaquancr.in";
+  const baseUrl = "https://my-ro-website.vercel.app/";
 
   // 2. Base static pages of your website
   const staticPages = [

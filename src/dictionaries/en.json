@@ -9,7 +9,9 @@
   },
   "nav": {
     "services": "Services",
+    "shop": "Products",
     "pricing": "AMC Plans",
+    "reviews": "Reviews",
     "book_now": "Book Now"
   },
   "amc": {
@@ -52,13 +54,13 @@
     "cta_order": "Order on WhatsApp",
     "models": {
       "eco": {
-        "name": "PureAqua Eco-RO",
+        "name": "AquaFresh Eco-RO",
         "desc": "Best for municipal tap water supplies (TDS < 1000). 7-stage purification.",
-        "price": "₹6,999",
+        "price": "₹5,999",
         "original_price": "₹12,000"
       },
       "pro": {
-        "name": "PureAqua Pro-Alkaline + Copper",
+        "name": "AquaFresh Pro-Alkaline + Copper",
         "desc": "Heavy-duty model for high TDS society groundwater (TDS up to 2500) in Noida & Gurgaon. 9-stage active mineralization.",
         "price": "₹9,499",
         "original_price": "₹18,000"
@@ -110,34 +112,37 @@
     "privacy": "Privacy Policy",
     "terms": "Terms & Conditions",
     "corporate": "Corporate Information",
-    "cin": "CIN: U74140DL2026PTC412345",
-    "gstin": "GSTIN: 07AAAAA1111A1Z1",
+    "cin": "CIN: ",
+    "gstin": "GSTIN: 09EZIPP9364M1Z9",
     "rights": "All Rights Reserved.",
-    "developed_by": "Developed by"
+    "developed_by": "Developed by",
+    "officeaddress": "📍 Sector 1, Near Ace Divino, Greater Noida West",
+    "phone":"📞 9217235781 | 9717407079",
+    "email":"📧 aryawaterworks@gmail.com"
   },
   "privacy": {
     "title": "Privacy Policy",
     "updated": "Last Updated: October 2026",
-    "intro": "PureAqua NCR operates this platform to offer residential RO system sales, repair, and maintenance services. We are committed to protecting the privacy of our users in compliance with Indian Information Technology laws.",
+    "intro": "Arya Water Works operates this platform to offer residential RO system sales, repair, and maintenance services. We are committed to protecting the privacy of our users in compliance with Indian Information Technology laws.",
     "sec1_title": "1. Information We Collect",
     "sec1_desc": "When you book a service or contact us via WhatsApp, we collect personal details including your Name, Phone Number, Email, and exact Society Address (Tower and Flat Number) to deploy our technicians.",
     "sec2_title": "2. How We Use Data",
     "sec2_desc": "Your contact information is strictly used to schedule visits, manage your active Annual Maintenance Contracts (AMC), send service reminders, and generate legal invoices containing our GSTIN registration details.",
     "sec3_title": "3. Data Protection & Sharing",
     "sec3_desc": "We do not sell, lease, or distribute your personal details to third-party marketing companies. Data is shared exclusively with our authorized technicians deployed to your specific residential sector.",
-    "contact": "For any privacy concerns or data deletion requests under corporate guidelines, contact our Grievance Officer at privacy@pureaquancr.in."
+    "contact": "For any privacy concerns or data deletion requests under corporate guidelines, contact our Grievance Officer at aryawaterworks@gmail.com."
   },
   "terms": {
     "title": "Terms & Conditions",
     "updated": "Last Updated: October 2026",
-    "intro": "These terms govern the use of the PureAqua NCR platform and the water purifier sales, maintenance, and repair services executed within residential complexes in the Delhi/NCR zone.",
+    "intro": "These terms govern the use of the Arya Water Works platform and the water purifier sales, maintenance, and repair services executed within residential complexes in the Delhi/NCR zone.",
     "sec1_title": "1. Service Bookings & Technician Deployment",
     "sec1_desc": "Service bookings are processed dynamically on this platform or via verified WhatsApp requests. We work toward our 2-hour deployment baseline, but execution speeds may adapt due to gate validation protocols or local block accessibility restrictions.",
     "sec2_title": "2. Hardware Components & Warranty Guidelines",
     "sec2_desc": "All newly purchased custom-assembled RO purifiers carry an explicit 1-Year Comprehensive Warranty covering the booster pump, SMPS unit, and internal electrical controllers. Periodic filtration consumables (Sediment and Carbon filters) are subject to localized clogging cycles depending on water hardness and are excluded from long-term free replacement warranties.",
     "sec3_title": "3. RWA & Resident Group Discount Regulations",
     "sec3_desc": "To claim society block group discount incentives, multiple service requests must be submitted together for the same apartment block location. Benefits will be applied symmetrically to the final invoice generation matching our active GSTIN records.",
-    "contact": "For clarifications regarding corporate installation agreements, invoice auditing, or legal framework policies, reach out to our desk at operations@pureaquancr.in."
+    "contact": "For clarifications regarding corporate installation agreements, invoice auditing, or legal framework policies, reach out to our desk at aryawaterworks@gmail.com."
   },
   "faq": {
     "title": "Frequently Asked Questions",

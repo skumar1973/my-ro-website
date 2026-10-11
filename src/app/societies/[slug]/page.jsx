@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { ShieldCheck, MapPin, CheckCircle, Clock } from 'lucide-react';
-
+import { BUSINESS_PHONE } from "@/config";
 // 1. Pre-defined dataset of societies you want to target in Delhi/NCR
 const SOCIETIES_DATA = {
   "gaur-city-noida": {
@@ -31,9 +31,16 @@ const SOCIETIES_DATA = {
     recommendedRO: "Eco Custom RO + UV System",
     popularPlan: "Basic Care Plan"
   },
-  "royal-nest-techzone4": {
+  "royal-nest-techzone-4": {
     name: "Royal Nest",
-    location: "Sector techzone4, Greater Noida. West",
+    location: "Sector Techzone 4, Greater Noida. West",
+    tdsRange: "400 - 700 PPM (Municipal + Borewell Mix)",
+    recommendedRO: "Eco Custom RO + UV System",
+    popularPlan: "Basic Care Plan"
+  },
+  "apex-golf-avenue": {
+    name: "Apex Golf Avenue",
+    location: "Sector Techzone 4, Greater Noida. West",
     tdsRange: "400 - 700 PPM (Municipal + Borewell Mix)",
     recommendedRO: "Eco Custom RO + UV System",
     popularPlan: "Basic Care Plan"
@@ -93,18 +100,13 @@ export default async function SocietyPage({ params }) {
           </p>
           <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
             <a 
-              href={`https://wa.me/${encodeURIComponent(society.name)}%20and%20need%20RO%20service.`}
+              href={`https://wa.me/${BUSINESS_PHONE}?text=Hi%20Arya%20Water%20Works,I%20need%20RO%20Service%20at%20${encodeURIComponent(society.name)}%20society.`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-lg bg-emerald-600 px-8 py-3.5 text-center text-sm font-semibold text-white shadow-md hover:bg-emerald-700 transition"
             >
               💬 WhatsApp Book Technician
             </a>
-                {/* <a
-      href={`https://wa.me?${BUSINESS_PHONE}?text=Hi%20PureAqua%20NCR,%20I%20need%20to%20book%20an%20RO%20service%20for%20my%20home.`}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-emerald-500 text-white shadow-2xl transition hover:scale-110 hover:bg-emerald-600"
-      aria-label="Contact on WhatsApp"
-    ></a> */}
           </div>
         </div>
       </section>
@@ -150,7 +152,9 @@ export default async function SocietyPage({ params }) {
           </p>
           <div className="mt-6">
             <a 
-              href={`https://wa.me{encodeURIComponent(society.name)}`}
+              href={`https://wa.me/${BUSINESS_PHONE}?text=Hi%20Arya%20Water%20Works,We%20want%20to%20do%20RO%20Service%20at%20${encodeURIComponent(society.name)}%20in%20group%20and%20claim%20discount.`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block rounded-md bg-white px-6 py-2.5 text-sm font-semibold text-blue-700 hover:bg-blue-50 transition"
             >
               Claim Group Discount

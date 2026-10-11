@@ -3,7 +3,7 @@ import { BUSINESS_PHONE } from "@/config";
 export default function WhatsAppButton() {
   return (
     <a
-      href={`https://wa.me?${BUSINESS_PHONE}?text=Hi%20PureAqua%20NCR,%20I%20need%20to%20book%20an%20RO%20service%20for%20my%20home.`}
+      href={`https://wa.me/${BUSINESS_PHONE}?text=Hi%20Arya%20Water%20Works,%20I%20need%20to%20book%20an%20RO%20service%20for%20my%20home.`}
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-emerald-500 text-white shadow-2xl transition hover:scale-110 hover:bg-emerald-600"

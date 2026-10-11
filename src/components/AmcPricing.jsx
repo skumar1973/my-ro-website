@@ -1,4 +1,5 @@
 import { Check } from "lucide-react";
+import { BUSINESS_PHONE } from "@/config";
 
 export default function AmcPricing({ dict }) {
   return (
@@ -40,7 +41,9 @@ export default function AmcPricing({ dict }) {
               </ul>
             </div>
             <a
-              href={`https://wa.me{dict.amc.plans.basic.name}`}
+              href={`https://wa.me/${BUSINESS_PHONE}?text=Hi%20Arya%20Water%20Works,%20I%20need%20to%20order%20${dict.amc.plans.basic.name}%20AMC%20plan.`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-8 block w-full rounded-lg border border-blue-600 px-4 py-3 text-center text-sm font-semibold text-blue-600 transition hover:bg-blue-50 dark:border-blue-400 dark:text-blue-400 dark:hover:bg-slate-900"
             >
               {dict.amc.cta_buy}
@@ -73,7 +76,9 @@ export default function AmcPricing({ dict }) {
               </ul>
             </div>
             <a
-              href={`https://wa.me{dict.amc.plans.premium.name}`}
+              href={`https://wa.me/${BUSINESS_PHONE}?text=Hi%20Arya%20Water%20Works,%20I%20need%20to%20order%20${dict.amc.plans.premium.name}%20AMC%20plan.`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-8 block w-full rounded-lg bg-blue-600 px-4 py-3 text-center text-sm font-semibold text-white shadow-md hover:bg-blue-700 transition dark:bg-blue-400 dark:text-slate-950 dark:hover:bg-blue-500"
             >
               {dict.amc.cta_buy}

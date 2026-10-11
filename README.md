@@ -1,4 +1,4 @@
-# PureAqua NCR – Responsive Bilingual RO Sales & Service Platform
+# AryaWaterWork – Responsive Bilingual RO Sales & Service Platform
 
 A high-performance, hyper-local **Next.js (App Router)** static website built for residential RO (Reverse Osmosis) water purifier sales, repairs, and Annual Maintenance Contracts (AMCs) across high-rise societies in **Delhi/NCR (Noida, Gurgaon, Delhi)**. 
 
@@ -106,7 +106,7 @@ npm run start
 
 ## 📈 Search Console & Local SEO Activation Checklist
 
-1.  **Sitemap Submission:** Once the target production domain is configured (e.g., `https://pureaquancr.in`), load your Google Search Console panel, navigate to the **Sitemaps** module, enter `sitemap.xml`, and hit submit to index your dynamic residential pages instantly.
+1.  **Sitemap Submission:** Once the target production domain is configured (e.g., `https://my-ro-website.vercel.app/`), load your Google Search Console panel, navigate to the **Sitemaps** module, enter `sitemap.xml`, and hit submit to index your dynamic residential pages instantly.
 2.  **Territory Scale Out:** To launch services in new housing complexes across Noida, Gurgaon, or West Delhi, add an object item block into the `SOCIETIES_DATA` array inside `src/app/societies/[slug]/page.js`. The system will automatically construct the fresh URL landing view, add it to the search sitemap, and structure the layout components upon the next deployment compile.
 
 ---

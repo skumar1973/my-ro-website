@@ -1,5 +1,6 @@
 "use client"
 import { ExternalLink } from "lucide-react";
+import VisitorCounter from "@/components/VisitorCounter";
 
 export default function Footer({ dict }) {
   const currentYear = new Date().getFullYear();
@@ -101,7 +102,7 @@ export default function Footer({ dict }) {
         {/* Bottom Bar: License and Developer Credit Anchor */}
         <div className="mt-12 border-t border-slate-200 pt-8 dark:border-slate-800 flex flex-col md:flex-row items-center justify-between gap-4 text-xs font-semibold text-slate-400 dark:text-slate-500">
           <p>© {currentYear} Arya Water Works {dict.footer.rights}</p>
-          
+          <span>{dict.footer.visitors}: <VisitorCounter /></span> 
           <div className="flex items-center gap-1">
             <span>{dict.footer.developed_by}</span>
             <a 

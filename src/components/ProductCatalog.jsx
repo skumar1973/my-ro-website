@@ -54,7 +54,7 @@ export default function ProductCatalog({ dict }) {
             </div>
 
             <a
-              href={`https://wa.me/${BUSINESS_PHONE}?text=Hi%20Arya%20Water%20Works,%20I%20need%20to%20${encodeURIComponent(dict.shop.models.eco.name)}%20with%20the%20AMC%20Bundle.`}
+              href={`https://wa.me/${BUSINESS_PHONE}?text=Hi%20Arya%20Water%20Works,%20I%20need%20to%20buy%20${encodeURIComponent(dict.shop.models.eco.name)}%20with%20the%20AMC%20Bundle.`}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-8 flex w-full items-center justify-center gap-2 rounded-lg bg-blue-600 py-3.5 text-center text-sm font-semibold text-white shadow-md hover:bg-blue-700 transition"
@@ -100,9 +100,8 @@ export default function ProductCatalog({ dict }) {
                 {dict.shop.bundle_text}
               </div>
             </div>
-      {/* href={`https://wa.me/${BUSINESS_PHONE}?text=Hi%20Arya%20Water%20Works,%20I%20need%20to%20book%20an%20RO%20service%20for%20my%20home.`} */}
             <a
-              href={`https://wa.me/${BUSINESS_PHONE}?text=Hi%20Arya%20Water%20Works,%20I%20need%20to%20${encodeURIComponent(dict.shop.models.pro.name)}%20with%20the%20AMC%20Bundle.`}
+              href={`https://wa.me/${BUSINESS_PHONE}?text=Hi%20Arya%20Water%20Works,%20I%20need%20to%20buy%20${encodeURIComponent(dict.shop.models.pro.name)}%20with%20the%20AMC%20Bundle.`}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-8 flex w-full items-center justify-center gap-2 rounded-lg bg-blue-600 py-3.5 text-center text-sm font-semibold text-white shadow-md hover:bg-blue-700 transition dark:bg-blue-400 dark:text-slate-950 dark:hover:bg-blue-500"
